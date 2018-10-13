@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <!-- meta -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  
+  <!-- title -->
+  <title>Wanna C more?</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Wanna C more?">
+
+  <!-- facebook open graph and twitter card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@antstei">
+
+  <meta property="og:url" content="https://wannacmore.github.io/">
+  <meta property="og:title" content="Wanna C more?">
+  <meta property=“og:type“ content=“website“ />
+  <meta property="og:locale" content="de_US" />
+  <meta property="og:image" content="#">
+  <meta property="og:description" content="Wanna C more?">
+
+  <!-- Style sheets -->
+  <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css">
+
+</head>
+<body>
+
+  <div id="app"></div>
+
+  <script>
+    window.$docsify = {
+      name: 'Wanna C more?',
+
+      basePath: '/docs/',
+      repo: 'https://github.com/wannacmore',
+      homepage: 'getting-started.md',
+
+      coverpage: true,
+      loadSidebar: true,
+
+      executeScript: true,
+
+      maxLevel: 2,
+      subMaxLevel: 2  
+    };
+  </script>
+
+  <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="https://unpkg.com/docsify-themeable"></script>
+
+  <script src="https://unpkg.com/docsify-copy-code"></script>
+
+  <script src="https://unpkg.com/prismjs/components/prism-c.min.js"></script>
+</body>
+</html>
